@@ -13,7 +13,9 @@ void f()
 
 int main() {
 	signal(SIGTERM, f);
+	
 	for(;;) {
+
 	sleep(2);
 	}
 	

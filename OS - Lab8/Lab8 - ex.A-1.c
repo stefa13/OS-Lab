@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 char isPrime(int n) {
+	
 	if (n <= 3) {
 		return n > 1;
 	}
